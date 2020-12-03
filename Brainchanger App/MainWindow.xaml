@@ -14,7 +14,10 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <StackPanel Grid.Row="1">
-            <controls:MediaPlayerControl/>
+            <TextBlock>Here is just a textblock test</TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="2">
+            <Label>Here is another Label text here for testing purposes.</Label>
         </StackPanel>
     </Grid>
 </Window>
